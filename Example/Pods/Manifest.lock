@@ -1,0 +1,14 @@
+PODS:
+  - HYPImagePicker (0.1.0)
+
+DEPENDENCIES:
+  - HYPImagePicker (from `../`)
+
+EXTERNAL SOURCES:
+  HYPImagePicker:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HYPImagePicker: ea1b1899cd0a28491645f91c2fc47ca5afa36b2d
+
+COCOAPODS: 0.34.2
