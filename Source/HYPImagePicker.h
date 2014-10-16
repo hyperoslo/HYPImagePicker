@@ -15,11 +15,8 @@
 @property (nonatomic, weak) id <HYPImagePickerDelegate> delegate;
 
 - (instancetype)initForViewController:(UIViewController *)viewController usingCaption:(NSString *)caption;
+
 - (void)invokeCamera;
-- (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex;
-- (void)takePhoto;
-- (void)chooseFromLibrary;
-- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info;
 
 @end
 
