@@ -1,10 +1,3 @@
-//
-//  HYPImagePicker.m
-//
-//  Created by Hyper AS. on 8/17/14.
-//  Copyright (c) 2014 Hyper AS. All rights reserved.
-//
-
 #import "HYPImagePicker.h"
 
 @interface HYPImagePicker () <UIActionSheetDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate>
