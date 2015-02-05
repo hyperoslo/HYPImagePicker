@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "HYPImagePicker"
-  s.version          = "0.2"
+  s.version          = "0.3"
   s.summary          = "UIImagePickerController without the tears."
   s.description      = <<-DESC
                        UIImagePickerController without the tears.
