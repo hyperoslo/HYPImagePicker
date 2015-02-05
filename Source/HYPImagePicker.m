@@ -39,9 +39,14 @@
 - (void)actionSheet:(UIActionSheet *)actionSheet didDismissWithButtonIndex:(NSInteger)buttonIndex
 {
     switch (buttonIndex) {
-        case 0:
-            [self takePhoto];
-            break;
+        case 0: {
+            ALAuthorizationStatus status = [ALAssetsLibrary authorizationStatus];
+            if (status != ALAuthorizationStatusAuthorized) {
+                [self chooseFromLibrary];
+            } else {
+                [self takePhoto];
+            }
+        } break;
         case 1:
             [self chooseFromLibrary];
             break;
