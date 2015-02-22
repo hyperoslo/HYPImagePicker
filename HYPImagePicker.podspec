@@ -3,7 +3,9 @@ Pod::Spec.new do |s|
   s.version          = "0.3"
   s.summary          = "UIImagePickerController without the tears."
   s.description      = <<-DESC
-                       UIImagePickerController without the tears.
+                       UIImagePickerController without the tears. HYPImagePicker is the simplest way
+                       to access camera capabilities, at the same time supporting fallbacks for when
+                       the user doesn't have access to a camera.
                        DESC
   s.homepage         = "https://github.com/hyperoslo/HYPImagePicker"
   s.license          = 'MIT'
