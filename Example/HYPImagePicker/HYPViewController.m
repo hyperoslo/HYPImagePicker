@@ -1,11 +1,3 @@
-//
-//  HYPViewController.m
-//  HYPImagePicker
-//
-//  Created by Elvis Nuñez on 10/16/2014.
-//  Copyright (c) 2014 Elvis Nuñez. All rights reserved.
-//
-
 #import "HYPViewController.h"
 
 #import "HYPImagePicker.h"
@@ -39,7 +31,7 @@
 
     _imagePicker = [[HYPImagePicker alloc] initForViewController:self usingCaption:@"Choose a funny image"];
     _imagePicker.delegate = self;
-    
+
     return _imagePicker;
 }
 

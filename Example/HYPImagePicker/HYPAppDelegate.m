@@ -1,11 +1,3 @@
-//
-//  HYPAppDelegate.m
-//  HYPImagePicker
-//
-//  Created by CocoaPods on 10/16/2014.
-//  Copyright (c) 2014 Elvis Nuñez. All rights reserved.
-//
-
 #import "HYPAppDelegate.h"
 #import "HYPViewController.h"
 
@@ -23,5 +15,5 @@
 
     return YES;
 }
-							
+
 @end
